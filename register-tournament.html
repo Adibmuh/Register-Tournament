@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Tournament Registration</h2>
+        <form id="registration-form">
+            <input type="text" id="team-name" placeholder="Team Name" required>
+            <h3>Captain</h3>
+            <input type="text" id="captain-name" placeholder="Captain Name" required>
+            <input type="text" id="captain-phone" placeholder="Captain Phone" required>
+            <h3>Member</h3>
+            <input type="text" id="member-name" placeholder="Member Name" required>
+            <input type="text" id="member-phone" placeholder="Member Phone" required>
+            <h3>Gender</h3>
+            <select id="gender" required>
+                <option value="Man">Man</option>
+                <option value="Woman">Woman</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="./script/register-tournament.js"></script>
+</body>
+</html>
